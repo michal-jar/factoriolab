@@ -44,4 +44,11 @@ export const gameInfo: Record<Game, GameInfo> = {
     meta: 'Captain of Industry',
     modId: 'coi',
   },
+  [Game.FortressCraftEvolved]: {
+    icon: 'fortress-craft-evolved',
+    route: 'fce',
+    label: 'options.game.fortressCraftEvolved',
+    meta: 'FortressCraft Evolved',
+    modId: 'fce',
+  },
 };
